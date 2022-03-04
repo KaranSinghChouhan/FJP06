@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* Universal Selector - commented below */
+        /* * {
+            background-color: aquamarine;
+            color: brown;
+        } */
+
+        /* Class Selector */
+        .container {
+            background-color: blueviolet;
+        }
+
+        /* Id Selector */
+        #one {
+            font-size: large;
+        }
+
+        .container2 {
+            font-size: xx-large;
+        }
+
+        /* Grouping */
+        .one,
+        .two,
+        .three {
+            background-color: burlywood;
+            color: chartreuse;
+            font-size: larger;
+        }
+
+        .container.container2 {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="container2">Heading</h1>
+    <p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus est inventore beatae sit vitae
+        dolorum,
+        cumque ipsum eveniet reprehenderit modi debitis! Delectus, ipsum minus. Id reiciendis provident voluptas sed
+        esse?</p>
+
+    <div>
+        <h1>Heading inside div</h1>
+        <p>Para inside div</p>
+    </div>
+
+    <div class="container">
+        <h3>Heading 3 inside div</h3>
+    </div>
+
+    <h3>Heading 3</h3>
+    <a href="" target="_blank">Link to nothing</a>
+    <h6>Heading 6</h6>
+    <p class="container2">Class container 2 is applied on me</p>
+    <p class="container container2">I have both classes</p>
+
+    <h1>Grouping</h1>
+    <a class="one" href="">Link</a>
+    <h5 class="two">Heading 5</h5>
+    <p class="three">para</p>
+</body>
+
+</html>
